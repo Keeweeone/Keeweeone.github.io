@@ -105,9 +105,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content
     <div class="timecode" id="tc">00:00:00:00</div>
   </div>
 </section>
-<div class="info-bar"><div class="info-item"><div class="info-label">Client</div><div class="info-value">Tessa & Matt</div></div><div class="info-item"><div class="info-label">Service</div><div class="info-value">Wedding Videography</div></div><div class="info-item"><div class="info-label">Year</div><div class="info-value">2025</div></div><div class="info-item"><div class="info-label">Location</div><div class="info-value">New Zealand</div></div></div>
+<div class="info-bar"><div class="info-item"><div class="info-label">Client</div><div class="info-value">Tessa & Matt</div></div><div class="info-item"><div class="info-label">Service</div><div class="info-value">Wedding Videography</div></div><div class="info-item"><div class="info-label">Year</div><div class="info-value">2026</div></div><div class="info-item"><div class="info-label">Location</div><div class="info-value">New Zealand</div></div></div>
 <div class="content">
-  <div class="about"><div class="about-label">About</div><div class="about-text"><div class="about-placeholder">Description coming soon.</div></div></div>
+  <div class="about"><div class="about-label">About</div><div class="about-text"><p>A stunning wedding set in the heart of the Waikato farmland. I wanted to capture the true beauty of the scenery as well as the amazing Tessa and Matt. This wedding took place on Tessa's fathers farmland and to this date is one of the best wedding locations I have ever filmed.</p></div></div>
   
   <div class="cta-sec">
     <div class="cta-text">Planning a <em>wedding?</em></div>
@@ -118,7 +118,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content
   <div><div class="next-lbl">Next project</div><div class="next-title">Chanel & Latham</div></div>
   <div class="next-arr">→</div>
 </a>
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const cur=document.getElementById('cur'),ring=document.getElementById('cur-ring');
 let mx=window.innerWidth/2,my=window.innerHeight/2,rx=mx,ry=my;
 document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;});
@@ -130,7 +130,4 @@ document.querySelectorAll('a,button').forEach(el=>{
 </script>
 <script>
 const tc=document.getElementById('tc');let f=0;
-setInterval(()=>{f++;const fr=f%25,s=Math.floor(f/25)%60,m=Math.floor(f/1500)%60,h=Math.floor(f/90000);const p=n=>String(n).padStart(2,'0');tc.textContent=p(h)+':'+p(m)+':'+p(s)+':'+p(fr);},40);
-</script>
-</body>
-</html>
+setInterval(()=>{f++;const fr=f%25,s=Math.floor(f/25)%60,m=Math.floor(f
